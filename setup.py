@@ -75,7 +75,7 @@ setup(
     keywords='deduplication multiprocessing images',
     zip_safe=True,
 
-    packages=['dedup'],
+    packages=find_packages(),
     
     # Alternatively, if you want to distribute just a my_module.py, uncomment 
     # this:
