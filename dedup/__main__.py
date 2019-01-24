@@ -1,6 +1,6 @@
 from __future__ import print_function
-from near_duplicate import NearDuplicate
-from exact_duplicate import ExactDuplicate
+from dedup.near_duplicate import NearDuplicate
+from dedup.exact_duplicate import ExactDuplicate
 import argparse
 import os, sys, errno
 #from multiprocessing import Pool
